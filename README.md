@@ -7,7 +7,8 @@ Rice business provides and serves restaurant and rating information for Rice.
   2. [Install Dependencies](#Installing-Dependencies)
   3. [Setup Environment Variables](#Environment-Variables)
   4. [Start the application](#Start-application)
-2. [Technologies](#Technologies)
+2. [Dropping the Database](#database)
+3. [Technologies] (#technologies)
 3. [Architecture](#Architecture)
 4. [Team](#Team)
 5. [Contributing](#Contributing)
@@ -36,27 +37,28 @@ Rice business provides and serves restaurant and rating information for Rice.
   1. Copy and save the  ``` example.env ``` file in the env folder as ``` development.env ```.
   2. Enter your desired ```PORT```
 
-##### Client side setup
+#### 4. Run the application
 
 1. Start the server by running the following command from the root directory:
 
-    ```
+    ```sh
     $ npm start
     ```
 2. Your server is now live at ```http://localhost:PORT```
+#### 5. Run tests
 
-### Dropping the database
+1. Run the follow command from the root directory to run database query tests.
+    ```sh
+    $ npm test
+    ```
+## Dropping the database
 
 1. Run the following command from the root directory:
 
-    ```
+    ```sh
     $ npm run drop
     ```
-    
-### Run tests
 
-1. Run the follow command from the root directory to run database query tests.
-    ```
-    $ npm test
-    ```
+
+
 
